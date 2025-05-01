@@ -1,0 +1,15 @@
+{
+
+    "manifest_version": 2,
+    "name": "Remove ADBlock Thing YT",
+    "version": "1.0",
+    "description": "",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://youtube.com/*", "*://www.youtube.com/*"],
+        "js": ["Youtube-Ad-blocker-Reminder-Remover.user.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
